@@ -46,3 +46,92 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+.row3r{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+.red3{
+  width: 80px;
+  background-color: red;
+}
+.row3b{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.blue3{
+  width: 80px;
+  background-color: blue;
+}
+
+
+.row4red{
+  flex-grow: 3;
+  background-color: red;
+}
+.row4blue{
+  flex-direction: row-reverse;
+
+  width: 80px;
+
+  background-color: blue;
+
+}
+.row5{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.red5{
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  background-color: red;
+}
+.row6{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: red;
+}
+.row6b{
+  width: 80px;
+  background-color: blue;
+  justify-content: center;
+}
+.red7{
+  width: 80px;
+  background-color: red;
+}
+.blue7{
+  flex: 1;
+  display: flex;
+  background-color: blue;
+}
+.green7{
+  background-color: green;
+  width:40px;
+  height: 20px;
+  align-self: center;
+}
+.row8{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.orange{
+  width: 80px;
+  background-color: orange;
+}
+.row9{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  background-color: orange;
+}
+.green9{
+  
+  width: 20px;
+  background-color: green;
+}
